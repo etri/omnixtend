@@ -1,10 +1,10 @@
-# omnixtend/MemoryNode + oxme-fuse README.md
+# OmniXtend Examples: MemoryNode + oxmem-fuse
 
-# Introduction
+## Introduction
 
 This document explains how to extend the memory of a RISC-V virtual machine using OmniXtend memory, and how to set up an environment to run the llama 3.2 1B model in llama-cpp on that expanded memory.
 
-# Installation
+## Installation
 
 This section describes how to install and configure QEMU, a pre-built RISC-V image, llama-cpp, and the llama 3.2 1B model.
 
@@ -119,7 +119,7 @@ mkdir om
 
 After these steps, you will have a 1 GB OmniXtend-backed memory region emulated by MemoryNode, and a file-based interface at om/data to access it.
 
-# Experiments
+## Experiments
 
 Use the OmniXtend MemoryNode to extend the memory of a QEMU RISC-V VM and measure llama-cpp inference performance under different memory configurations:
 
