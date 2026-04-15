@@ -68,3 +68,13 @@ Benchmark tests are included in the SD card image but execution procedures are *
 More detailed benchmark usage instructions will be provided in future updates.
 
 ---
+
+## Troubleshooting
+
+| Symptom | Possible Cause | Solution |
+|---------|---------------|----------|
+| No UART output after power-on | SD card not detected | Re-seat PMOD adapter and verify SD card image |
+| `devmem` returns bus error | AU280 not ready | Power cycle AU280 and wait for link stabilization |
+| Memory read returns all zeros | Bitstream mismatch | Re-program both boards with matching bitstreams |
+
+---
