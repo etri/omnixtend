@@ -7,7 +7,7 @@
 **OmniXtend** is an open, Ethernet-based memory coherence protocol that extends RISC-V’s memory model across distributed systems.  
 This repository provides a unified, modular workspace for developing, testing, and deploying OmniXtend components using **C**, **Verilog RTL**, and **Chisel** implementations.
 
-Each component is organized for compatibility with industry and research frameworks such as **TLEO** and **Chipyard**, enabling practical integration with host machines, memory nodes, and FPGA-based SoC systems.
+Each component is organized for compatibility with industry and research frameworks such as **TLoE** and **Chipyard**, enabling practical integration with host machines, memory nodes, and FPGA-based SoC systems.
 
 ## 📁 Repository Structure
 
